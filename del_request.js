@@ -1,6 +1,6 @@
 const deleteNotion = async (notionId) => {
     try {
-        const response = await fetch(`http://127.0.0.1:8000/api/notions/${notionId}/`, {
+        const response = await fetch(`http://uladzimir.pythonanywhere.com/api/notions/${notionId}/`, {
             method: 'DELETE',
             headers: {
                 'Content-Type': 'application/json'

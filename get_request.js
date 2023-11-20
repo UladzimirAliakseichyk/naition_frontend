@@ -1,4 +1,4 @@
-const link='http://127.0.0.1:8000/api/notions/'
+const link='http://uladzimir.pythonanywhere.com/api/notions/'
 
 
 const dataContainer = document.getElementById('data-container');
