@@ -3,7 +3,7 @@ import { link } from "./get_request.js";
 const submitBtn = document.getElementById('submit-btn');
 const notionInput = document.getElementById('notion-input');
 const form = document.getElementById('notion-form');
-const apiUrl = 'http://uladzimir.pythonanywhere.com/api/notions/';
+const apiUrl = 'https://uladzimir.pythonanywhere.com/api/notions/';
 
 submitBtn.addEventListener('click', async (event) => {
   event.preventDefault(); // Предотвращаем стандартное поведение отправки формы
